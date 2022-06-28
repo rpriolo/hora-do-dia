@@ -36,5 +36,10 @@ function carregarEstilo() {
         horario.innerHTML += `<p>Agora são <strong>${horarioCompleto}</strong>.</p>`;
         imagem.src = './img/noite.jpg'
         saudacao.innerHTML += `<p>Boa noite!</p>`;
+    } else {
+        fundo.style.background = '#acacac';
+        horario.innerHTML = `<p>Parece que há algo de errado com o horário...</p>`;
+        var divImagem = document.getElementById('div-imagem');
+        divImagem.removeChild(imagem);
     }
 }
