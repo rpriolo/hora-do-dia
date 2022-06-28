@@ -1,8 +1,7 @@
 body {
-    font-family: 'Bahnschrift Light';
-    font-size: 14pt;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22pt;
     background-color: rgb(119, 175, 199);
-    margin: 50px 0 0 0;
 }
 
 header {
@@ -30,5 +29,5 @@ section {
 footer {
     text-align: center;
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 18px;
 }
